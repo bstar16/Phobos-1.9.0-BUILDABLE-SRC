@@ -59,7 +59,7 @@ You will find your built jar in the directory `builds/libs`.
 
 ## Too lazy to build the jar yourself?
 
-[Click here to download the release.](https://github.com/Hqrion/Phobos-1.7.2-BUILDABLE-SRC/releases/download/1.7.2/Phobos-1.7.2-release.jar)
+[Click here to download the release.](https://github.com/Hqrion/Phobos-1.9.0-BUILDABLE-SRC/releases/download/1.9.0/Phobos-1.9.0-Release.jar)
 
 ## Special Thanks to...
 Yandex for helping me check the jar for rats, and ziwhosz for notifying me where the current RATs were... 
