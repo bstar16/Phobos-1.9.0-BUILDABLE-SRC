@@ -16,7 +16,7 @@ apply plugin: 'com.github.johnrengelman.shadow'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
-version = "1.7.2"
+version = "1.9.0"
 group = "me.earth.phobos" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "earthhack"
 
