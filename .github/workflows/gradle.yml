@@ -24,5 +24,14 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: |
-        ./gradlew setupDecompWorkspace
-        ./gradlew build
+        ./gradlew setupDecompWorkspace 
+    - name: List files
+      run: ls
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+       # Artifact name
+       name: phobos
+       # A file, directory or wildcard pattern that describes what to upload
+       path: ./build/libs/*-release.jar
+
