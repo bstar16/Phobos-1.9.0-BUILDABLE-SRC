@@ -24,7 +24,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: |
-        ./gradlew setupDecompWorkspace 
+        ./gradlew setupDecompWorkspace
+        ./gradlew build
     - name: List files
       run: ls
     - name: Upload a Build Artifact
