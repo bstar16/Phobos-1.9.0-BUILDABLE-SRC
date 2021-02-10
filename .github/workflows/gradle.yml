@@ -25,7 +25,6 @@ jobs:
     - name: Build with Gradle
       run: |
         ./gradlew setupDecompWorkspace
-        ./gradlew build
     - name: List files
       run: ls
     - name: Upload a Build Artifact
@@ -34,5 +33,5 @@ jobs:
        # Artifact name
        name: phobos
        # A file, directory or wildcard pattern that describes what to upload
-       path: ./build/libs/*-release.jar
+       path: ./build/libs
 
